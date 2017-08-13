@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo+13px');
+/* @import url('https://fonts.googleapis.com/css?family=Slabo+13px');
+ */
 
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+* {
+  font-family: 'karla', sans-serif;
+}
 
 @media screen and (max-width: 640px) {
 
@@ -31,7 +37,7 @@
 }
 
 .fs-timeline-tag {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   top: -2px;
   display: inline-block;
@@ -75,7 +81,7 @@
 .record-link {
   display: block;
   padding: 6px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #aaa !important;
 }
 
@@ -177,7 +183,7 @@ a .header-links {
   max-width: 600px;
   padding-left: 220px;
   margin: 46px auto 0 auto;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .fs-timeline .fs-timeline-item {
@@ -237,7 +243,7 @@ a .header-links {
 }
 
 .fs-timeline .fs-timeline-item-date {
-  font-size: 18px;
+  font-size: 26px;
   position: absolute;
   right: 100%;
   white-space: nowrap;
